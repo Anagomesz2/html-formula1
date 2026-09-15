@@ -1,0 +1,153 @@
+/* --- CONFIGURAÇÕES GERAIS --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(235, 240, 246);
+    color: #1A1D20;
+}
+
+/* --- CABEÇALHO ORIGINAL (Título na direita, Links na esquerda) --- */
+#cabecalho-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F172A;
+    color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    flex-wrap: wrap;
+}
+
+.menu-links {
+    display: flex;
+    gap: 20px;
+}
+
+#cabecalho-principal a {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(241, 245, 249);
+    text-decoration: none;
+}
+
+/* Botão amarelo para a página selecionada */
+#cabecalho-principal a.active {
+    background-color: #fdec7c;
+    color: #0F172A;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.titulo-direita {
+    text-align: right;
+}
+
+#cabecalho-principal h1 {
+    font-size: 28px;
+    font-weight: 900;
+    margin: 0;
+}
+
+#cabecalho-principal small {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(217, 43, 43);
+    display: block;
+}
+
+/* --- CONTEÚDO PRINCIPAL --- */
+main {
+    padding: 40px;
+}
+
+#apresentacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+#apresentacao h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0F172A;
+}
+
+#apresentacao p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #475569;
+    line-height: 1.6;
+}
+
+#apresentacao img {
+    width: 400px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+#personagens {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#personagens h2 {
+    width: 100%;
+    font-size: 26px;
+    font-weight: 800;
+    color: #0F172A;
+    margin-bottom: 10px;
+}
+
+/* --- CARDS DOS PILOTOS (IGUAL AO SEU PRINT) --- */
+.card {
+    background-color: rgb(255, 255, 255);
+    width: calc(33.333% - 14px);
+    border-radius: 8px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0F172A;
+    margin: 15px 0 8px 0;
+}
+
+.card p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #64748B;
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* --- RODAPÉ --- */
+footer {
+    background-color: #0F172A;
+    color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
