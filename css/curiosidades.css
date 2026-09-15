@@ -17,7 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #0F172A;
-    color: rgb(255, 255, 255);
+    color: rgb(235, 240, 246);
     padding: 20px 40px;
 }
 
@@ -51,7 +51,7 @@ body {
 
 #cabecalho-principal small {
     font-size: 14px;
-    color: rgb(217, 43, 43);
+    color: #e10600;
 }
 
 /* --- CONTEÚDO DA PÁGINA --- */
@@ -64,14 +64,14 @@ main {
 }
 
 #topo-curiosidades small {
-    color: #fdec7c;
+    color: #e10600;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 #topo-curiosidades h2 {
     font-size: 32px;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 5px;
 }
 
@@ -98,6 +98,18 @@ main {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+
+.lado-direito-fatos small{
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #a10803;
 }
 
 /* Caixas azuis claras para os fatos */
@@ -105,7 +117,7 @@ main {
     display: flex;
     align-items: flex-start;
     gap: 15px;
-    background-color: #e6f4ea;
+    background-color: #e6f1f4;
     padding: 15px;
     border-radius: 6px;
 }
@@ -113,7 +125,7 @@ main {
 .numero-fato {
     font-size: 20px;
     font-weight: bold;
-    color: #0084c2;
+    color: #e10600;
 }
 
 .texto-fato h5 {
