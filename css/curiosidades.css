@@ -11,13 +11,13 @@ body {
     color: #1A1D20;
 }
 
-/* --- CABEÇALHO --- */
+/* --- CABEÇALHO PADRÃO --- */
 #cabecalho-principal {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #0F172A;
-    color: rgb(255, 255, 255);
+    color: rgb(235, 240, 246);
     padding: 20px 40px;
 }
 
@@ -51,7 +51,7 @@ body {
 
 #cabecalho-principal small {
     font-size: 14px;
-    color: rgb(217, 43, 43);
+    color: #e10600;
 }
 
 /* --- CONTEÚDO DA PÁGINA --- */
@@ -64,24 +64,25 @@ main {
 }
 
 #topo-curiosidades small {
-    color: #fdec7c;
+    color: #e10600;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 #topo-curiosidades h2 {
     font-size: 32px;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 5px;
 }
 
-/* Bloco principal branco arredondado */
+/* BLOCO PRINCIPAL BRANCO ARREDONDADO */
 #conteudo-fatos {
     display: flex;
     gap: 40px;
     background-color: white;
     padding: 30px;
     border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .lado-esquerdo-imagem {
@@ -91,6 +92,7 @@ main {
 .lado-esquerdo-imagem img {
     width: 100%;
     border-radius: 8px;
+    display: block;
 }
 
 .lado-direito-fatos {
@@ -100,12 +102,19 @@ main {
     gap: 15px;
 }
 
-/* Caixas azuis claras para os fatos */
+.lado-direito-fatos small {
+    font-size: 24px;
+    font-weight: bold;
+    color: #a10803;
+    margin-bottom: 10px;
+}
+
+/* CAIXAS AZUIS CLARAS PARA OS FATOS */
 .linha-fato {
     display: flex;
     align-items: flex-start;
     gap: 15px;
-    background-color: #e6f4ea;
+    background-color: #e6f1f4;
     padding: 15px;
     border-radius: 6px;
 }
@@ -113,7 +122,7 @@ main {
 .numero-fato {
     font-size: 20px;
     font-weight: bold;
-    color: #0084c2;
+    color: #e10600;
 }
 
 .texto-fato h5 {
@@ -127,7 +136,7 @@ main {
     color: #64748B;
 }
 
-/* --- RODAPÉ --- */
+/* --- RODAPÉ PADRÃO --- */
 footer {
     background-color: #0F172A;
     color: white;

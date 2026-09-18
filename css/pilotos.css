@@ -11,15 +11,14 @@ body {
     color: #1A1D20;
 }
 
-/* --- CABEÇALHO ORIGINAL (Título na direita, Links na esquerda) --- */
+/* --- CABEÇALHO PADRÃO --- */
 #cabecalho-principal {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #0F172A;
-    color: rgb(255, 255, 255);
+    color: rgb(235, 240, 246);
     padding: 20px 40px;
-    flex-wrap: wrap;
 }
 
 .menu-links {
@@ -34,7 +33,6 @@ body {
     text-decoration: none;
 }
 
-/* Botão amarelo para a página selecionada */
 #cabecalho-principal a.active {
     background-color: #fdec7c;
     color: #0F172A;
@@ -42,21 +40,18 @@ body {
     border-radius: 4px;
 }
 
-.titulo-direita {
+.titulo-grid {
     text-align: right;
 }
 
 #cabecalho-principal h1 {
     font-size: 28px;
     font-weight: 900;
-    margin: 0;
 }
 
 #cabecalho-principal small {
     font-size: 14px;
-    font-weight: 400;
-    color: rgb(217, 43, 43);
-    display: block;
+    color: #e10600;
 }
 
 /* --- CONTEÚDO PRINCIPAL --- */
@@ -73,6 +68,7 @@ main {
     padding: 30px;
     border-radius: 8px;
     margin-bottom: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 #apresentacao h2 {
@@ -110,7 +106,7 @@ main {
     margin-bottom: 10px;
 }
 
-/* --- CARDS DOS PILOTOS (IGUAL AO SEU PRINT) --- */
+/* --- CARDS DOS PILOTOS --- */
 .card {
     background-color: rgb(255, 255, 255);
     width: calc(33.333% - 14px);
@@ -119,6 +115,7 @@ main {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .card img {
@@ -142,10 +139,10 @@ main {
     line-height: 1.4;
 }
 
-/* --- RODAPÉ --- */
+/* --- RODAPÉ PADRÃO --- */
 footer {
     background-color: #0F172A;
-    color: rgb(255, 255, 255);
+    color: white;
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;

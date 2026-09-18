@@ -11,28 +11,47 @@ body {
     color: #1A1D20;
 }
 
-/* --- CABEÇALHO --- */
+/* --- CABEÇALHO PADRÃO --- */
 #cabecalho-principal {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #0F172A;
-    color: rgb(255, 255, 255);
+    color: rgb(235, 240, 246);
     padding: 20px 40px;
 }
 
+.menu-links {
+    display: flex;
+    gap: 20px;
+}
+
 #cabecalho-principal a {
-    color: rgb(241, 245, 249);
-    text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    padding: 8px 16px;
-    border-radius: 6px;
+    color: rgb(241, 245, 249);
+    text-decoration: none;
 }
 
 #cabecalho-principal a.active {
     background-color: #fdec7c;
     color: #0F172A;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.titulo-grid {
+    text-align: right;
+}
+
+#cabecalho-principal h1 {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+#cabecalho-principal small {
+    font-size: 14px;
+    color: #e10600;
 }
 
 /* --- CONTEÚDO DA HOME --- */
@@ -55,15 +74,16 @@ main {
 .subtitulo-topo {
     color: #e10600;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 25px;
     text-transform: uppercase;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .botoes-hero {
     display: flex;
     gap: 15px;
+    margin-top: 20px;
 }
 
 .btn-principal {
@@ -94,6 +114,7 @@ main {
     width: 100%;
     max-width: 450px;
     border-radius: 12px 12px 0 0;
+    display: block;
 }
 
 .tarjeta-amarela {
@@ -107,7 +128,7 @@ main {
     border-radius: 0 0 12px 12px;
 }
 
-/* --- GRID DE REQUISITOS (3 CARDS) --- */
+/* --- GRID DE 3 CARDS --- */
 .grid-tres-cards {
     display: flex;
     justify-content: space-between;
@@ -124,9 +145,9 @@ main {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-/* --- BANNER AZUL DE CHAMADA --- */
+/* --- BANNER DE CHAMADA --- */
 #banner-chamada {
-    background-color: #0084c2;
+    background-color: #0F172A;
     color: white;
     text-align: center;
     padding: 40px;
@@ -144,7 +165,7 @@ main {
     margin-top: 15px;
 }
 
-/* --- RODAPÉ --- */
+/* --- RODAPÉ PADRÃO --- */
 footer {
     background-color: #0F172A;
     color: white;
