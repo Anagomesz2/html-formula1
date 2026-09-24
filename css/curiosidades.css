@@ -17,6 +17,7 @@ body {
     background-color: #0F172A;
     color: rgb(235, 240, 246);
     padding: 20px;
+    gap: 4px;
 }
 
 .menu-links {
@@ -26,7 +27,7 @@ body {
 
 #cabecalho-principal a {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: bold;
     color: rgb(241, 245, 249);
 }
 
@@ -34,16 +35,16 @@ body {
     background-color: #fdec7c;
     color: #0F172A;
     padding: 6px;
-    border-radius: 4px;
 }
 
 .titulo-grid {
-    text-align: right;
+    display: flex;
+    justify-content: flex;
 }
 
 #cabecalho-principal h1 {
     font-size: 28px;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 #cabecalho-principal small {
@@ -53,16 +54,23 @@ body {
 
 //conteudo da pagina
 main {
-    padding: 40px;
+   padding: 40px;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
 }
 
 #topo-curiosidades {
-    margin-bottom: 25px;
+    font-size: 14px;
+    color: #252525;
+    gap: 5px;
 }
 
 #topo-curiosidades small {
     color: #e10600;
-    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 #topo-curiosidades h2 {
@@ -76,7 +84,6 @@ main {
     gap: 40px;
     background-color: white;
     padding: 30px;
-    border-radius: 8px;
 }
 
 .lado-esquerdo-imagem {
@@ -85,7 +92,6 @@ main {
 
 .lado-esquerdo-imagem img {
     width: 100%;
-    border-radius: 8px;
     display: block;
 }
 
@@ -93,9 +99,8 @@ main {
     flex: 1.2;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     font-size: 25px;
-    margin-bottom: 0px;
 }
 
 .lado-direito-fatos small{
@@ -105,8 +110,8 @@ main {
     font-size: 25px;
     font-weight: bold;
     color: #a10803;
-    margin-bottom: 20px;
 }
+-----------parei aqui
 
 .linha-fato {
     display: flex;

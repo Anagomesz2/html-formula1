@@ -6,7 +6,6 @@
 
 body {
     font-family: sans-serif;
-    font-family: sans-serif;
     background-color: rgb(235, 240, 246);
     color: #1A1D20;
 }
@@ -17,7 +16,7 @@ body {
     align-items: center;
     background-color: #0F172A;
     color: rgb(235, 240, 246);
-    padding: 20px 40px;
+    padding: 20px;
 }
 
 .menu-links {
