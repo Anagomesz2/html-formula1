@@ -26,9 +26,8 @@ body {
 
 #cabecalho-principal a {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: bold;
     color: rgb(241, 245, 249);
-    text-decoration: none;
 }
 
 #cabecalho-principal a.active {
@@ -39,12 +38,13 @@ body {
 }
 
 .titulo-grid {
-    text-align: right;
+    display: flex;
+    justify-content: flex;
 }
 
 #cabecalho-principal h1 {
     font-size: 28px;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 #cabecalho-principal small {
@@ -54,34 +54,37 @@ body {
 
 main {
     padding: 40px;
+    gap: 40px;
 }
 
 #apresentacao {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
     background-color: rgb(255, 255, 255);
     padding: 30px;
     border-radius: 8px;
-    margin-bottom: 40px;
+    width: 100%;
 }
 
 #apresentacao h2 {
     font-size: 32px;
-    font-weight: 700;
+    font-weight: bold;
     color: #0F172A;
 }
 
 #apresentacao p {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: bold;
+    gap: 8px;
     color: #475569;
-    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
 }
 
 #apresentacao img {
-    width: 400px;
+    width: 100%;
     border-radius: 8px;
     object-fit: cover;
 }
@@ -97,9 +100,8 @@ main {
 #personagens h2 {
     width: 100%;
     font-size: 26px;
-    font-weight: 800;
+    font-weight: bold;
     color: #0F172A;
-    margin-bottom: 10px;
 }
 
 .card {
@@ -121,14 +123,14 @@ main {
 
 .card h3 {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: bold;
     color: #0F172A;
     margin: 15px 0 8px 0;
 }
 
 .card p {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: bold;
     color: #64748B;
     margin: 0;
     line-height: 1.4;

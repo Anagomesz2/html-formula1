@@ -8,6 +8,7 @@ body {
     font-family: sans-serif;
     background-color: rgb(235, 240, 246);
     color: #1A1D20;
+    gap: 40px;
 }
 
 #cabecalho-principal {
@@ -29,6 +30,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     color: rgb(241, 245, 249);
+    border-radius: 4px;
 }
 
 #cabecalho-principal a.active {
@@ -71,12 +73,12 @@ main {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    font-size: 22px;
 }
 
 #topo-curiosidades h2 {
     font-size: 32px;
     color: rgb(0, 0, 0);
-    margin-top: 5px;
 }
 
 #conteudo-fatos {
@@ -88,11 +90,11 @@ main {
 
 .lado-esquerdo-imagem {
     flex: 1;
+    display: flex;
 }
 
 .lado-esquerdo-imagem img {
     width: 100%;
-    display: block;
 }
 
 .lado-direito-fatos {
@@ -111,7 +113,6 @@ main {
     font-weight: bold;
     color: #a10803;
 }
------------parei aqui
 
 .linha-fato {
     display: flex;
@@ -119,7 +120,7 @@ main {
     gap: 30px;
     background-color: #e6f1f4;
     padding: 15px;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
 .numero-fato {
@@ -128,10 +129,15 @@ main {
     color: #e10600;
 }
 
+.texto-fato {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
 .texto-fato h5 {
     font-size: 16px;
     color: #0F172A;
-    margin-bottom: 4px;
 }
 
 .texto-fato p {
@@ -145,5 +151,4 @@ footer {
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
 }
