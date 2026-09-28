@@ -57,83 +57,84 @@ main {
     gap: 40px;
 }
 
-#apresentacao {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    background-color: rgb(255, 255, 255);
-    padding: 30px;
-    border-radius: 8px;
-    width: 100%;
+#header-esquerda p {
+  color: rgb(192, 0, 0);
+  font-weight: bold;
+  font-size: 30px;
 }
 
-#apresentacao h2 {
-    font-size: 32px;
-    font-weight: bold;
-    color: #0F172A;
+.texto-pequeno {
+  color: rgb(192, 0, 0);
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
-#apresentacao p {
-    font-size: 16px;
-    font-weight: bold;
-    gap: 8px;
-    color: #475569;
-    display: flex;
-    flex-direction: column;
+#header-direita{
+  display: flex;
+  gap: 20px;
 }
 
-#apresentacao img {
-    width: 100%;
-    border-radius: 8px;
-    object-fit: cover;
+#header-direita p{
+ color: rgb(192, 0, 0);;
+ font-weight: bold;
 }
 
-#personagens {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    gap: 20px;
-    flex-wrap: wrap;
+#destaque {
+  background-color: rgb(235, 233, 233);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between
 }
 
-#personagens h2 {
-    width: 100%;
-    font-size: 26px;
-    font-weight: bold;
-    color: #0F172A;
+#destaque-txt h1{
+  color: black;
+  font-size: 80px;
+}
+
+#destaque-txt p{
+  font-size: 20px;
+}
+
+#destaque-img img {
+  width: 400px;
+}
+
+#galeria-txt {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+#galeria-txt h2{
+  color: black;
+  font-size: 48px;
 }
 
 .card {
-    background-color: rgb(255, 255, 255);
-    width: calc(33.333% - 14px);
-    border-radius: 8px;
-    padding: 15px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  width: 25%;
 }
 
-.card img {
-    width: 100%;
-    border-radius: 6px;
-    object-fit: cover;
+.card img{
+  width: 100%;
 }
 
-.card h3 {
-    font-size: 18px;
-    font-weight: bold;
-    color: #0F172A;
-    margin: 15px 0 8px 0;
+.card p{
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.card p {
-    font-size: 14px;
-    font-weight: bold;
-    color: #64748B;
-    margin: 0;
-    line-height: 1.4;
+.card-txt {
+  padding: 20px;
+}
+
+#galeria-cards{
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 footer {
