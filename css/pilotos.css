@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border-radius: 10px;
 }
 
 body {
@@ -80,7 +81,7 @@ main {
 }
 
 #destaque {
-  background-color: rgb(235, 233, 233);
+  background-color: rgb(255, 255, 255);
   padding: 20px;
   display: flex;
   align-items: center;
@@ -89,15 +90,15 @@ main {
 }
 
 #destaque-txt h1{
-  color: black;
-  font-size: 80px;
+  color: rgb(19, 19, 19);
+  font-size: 70px;
 }
 
 #destaque-txt p{
   font-size: 20px;
 }
 
-#destaque-img img {
+#destaque-img {
   width: 400px;
 }
 
