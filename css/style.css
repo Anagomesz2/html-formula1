@@ -24,6 +24,10 @@ body {
     gap: 20px;
 }
 
+.menu-links a {
+    text-decoration: none;
+}
+
 #cabecalho-principal a {
     font-size: 16px;
     font-weight: bold;
@@ -79,6 +83,7 @@ main {
     display: flex;
     gap: 15px;
     margin-top: 20px;
+    text-decoration: none;
 }
 
 .btn-principal {
@@ -87,6 +92,7 @@ main {
     font-weight: bold;
     padding: 12px;
     border-radius: 6px;
+    text-decoration: none;
 }
 
 .btn-secundario {
@@ -95,6 +101,7 @@ main {
     font-weight: bold;
     padding: 12px;
     border-radius: 6px;
+    text-decoration: none;
 }
 
 .container-imagem-logo {
@@ -119,10 +126,11 @@ main {
     border-radius:12px;
 }
 
-.detalhes-especiais h2 {
+#detalhes-especiais h2 {
     display: flex;
     flex-direction: column;
     gap: 60px;
+    color:#e10600
 }
 
 .grid-tres-cards {
@@ -149,6 +157,19 @@ main {
     padding: 40px;
     gap: 16px;
     border-radius: 12px;
+    margin-top: 40px;
+}
+
+#banner-chamada a {
+    text-decoration: none;
+}
+
+#banner-chamada h3 {
+    text-align: center;
+}
+
+#banner-chamada small {
+    color:#e10600
 }
 
 .btn-aviso {
@@ -167,4 +188,18 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+}
+
+#botoes-footer {
+    display: flex;
+    gap: 10px;
+}
+
+#botoes-footer a {
+    text-decoration: none;
+    background-color: #e10600;
+    color: #fafafa;
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: bold;
 }

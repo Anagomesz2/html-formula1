@@ -23,6 +23,11 @@ body {
 .menu-links {
     display: flex;
     gap: 20px;
+    text-decoration: none;
+}
+
+.menu-links a {
+    text-decoration: none;
 }
 
 #cabecalho-principal a {
@@ -91,7 +96,7 @@ main {
 
 #destaque-txt h1{
   color: rgb(19, 19, 19);
-  font-size: 70px;
+  font-size: 50px;
 }
 
 #destaque-txt p{
@@ -105,6 +110,7 @@ main {
 #galeria-txt {
   margin-top: 40px;
   padding: 20px;
+  color:#e10600
 }
 
 #galeria-txt h2{
@@ -145,4 +151,18 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+}
+
+#botoes-footer {
+    display: flex;
+    gap: 10px;
+}
+
+#botoes-footer a {
+    text-decoration: none;
+    background-color: #e10600;
+    color: #fafafa;
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: bold;
 }
